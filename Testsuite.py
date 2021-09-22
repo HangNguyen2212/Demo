@@ -12,7 +12,7 @@ driver.implicitly_wait(10)
 txt_username = "//input[@name='email' and @type='text']"
 txt_password = "//input[@type='password']"
 btn_login = "//button[@type='submit']"
-tab_account = "//a[@href='https://www.phptravels.net/admin/profile']"
+tab_account = "//a[@href='https://www.phptravels.net/api/admin/profile']"
 verify_email = "//input[@type='email']"
 
 #login page
